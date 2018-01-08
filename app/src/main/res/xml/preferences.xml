@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_general_title">
+    </PreferenceCategory>
+    <EditTextPreference
+        android:key="url"
+        android:title="@string/pref_url_title"
+        android:inputType="textUri">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="device_name"
+        android:title="@string/pref_device_name_title">
+    </EditTextPreference>
+    <PreferenceCategory
+        android:title="@string/pref_category_authentication_title">
+    </PreferenceCategory>
+    <EditTextPreference
+        android:key="user"
+        android:title="@string/pref_user_title">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="password"
+        android:title="@string/pref_password_title"
+        android:inputType="textPassword">
+    </EditTextPreference>
+
+</PreferenceScreen>

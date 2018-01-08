@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AlarmSynchronizer</string>
+    <string name="pref_url_title">URL</string>
+    <string name="pref_device_name_title">Device name</string>
+    <string name="pref_user_title">User name</string>
+    <string name="pref_category_authentication_title">Authentication</string>
+    <string name="pref_category_general_title">General</string>
+    <string name="pref_password_title">Password</string>
+
+    <!-- Strings related to Settings -->
+
+</resources>
